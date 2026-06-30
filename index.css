@@ -1,0 +1,41 @@
+header{
+    background-color: aqua;
+    padding: 10px 20px 10px 20px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navlinks{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+button{
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.hero-container{
+    height: 90vh;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero{
+    text-align: center;
+    width: 80%;
+    max-width: 1000px;
+}
+
+
+
